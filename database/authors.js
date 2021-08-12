@@ -4,5 +4,5 @@ const AuthorSchema = mongoose.Schema({
     name:String,
     books:[Number],
 })
-const AuthorModel = mongoose.model(AuthorSchema);
+const AuthorModel = mongoose.model("authors",AuthorSchema);
 module.exports = AuthorModel;

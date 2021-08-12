@@ -7,5 +7,5 @@ const PublicationSchema = mongoose.Schema({
 
 })
  
-PublicationModel = mongoose.model(PublicationSchema);
+PublicationModel = mongoose.model("publications",PublicationSchema);
 exports.model=PublicationModel;

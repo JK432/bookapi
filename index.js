@@ -2,6 +2,14 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require ("mongoose");
 const database = require("./database/index")
+
+//models
+const BookModels = require("./database/book")
+const AuthorModels = require("./database/authors")
+const PublicationModels = require("./database/publications")
+
+
+
 const app = express();
 app.use(express.json());
 // database connection
