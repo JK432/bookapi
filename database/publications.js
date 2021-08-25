@@ -8,4 +8,4 @@ const PublicationSchema = mongoose.Schema({
 })
  
 PublicationModel = mongoose.model("publications",PublicationSchema);
-exports.model=PublicationModel;
+module.exports =PublicationModel;
